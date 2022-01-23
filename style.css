@@ -9,6 +9,15 @@
   box-sizing: border-box;
 }
 
+:root {
+  --black: #333;
+  --orange: #FF6600;
+  --red: #DC3545;
+  --white: #fff;
+  --header-primary: 2rem;
+  --little-desc: 1.062rem;
+}
+
 .container {
   max-width: 78.12rem;
   margin: auto;
@@ -29,7 +38,7 @@ nav {
 }
 
 .nav-link {
-  color: #333;
+  color: var(--black);
   font-weight: 600;
   text-decoration: none;
   font-family: 'Raleway',
@@ -38,7 +47,7 @@ nav {
 }
 
 .nav-link:hover {
-  color: #FF6600;
+  color: var(--orange);
   transition: 0.3s;
 }
 
@@ -48,7 +57,7 @@ nav {
 
 .user-icon {
   width: 0.87rem;
-  color: #FF6600;
+  color: var(--orange);
 }
 
 .home-container {
@@ -65,16 +74,16 @@ nav {
 }
 
 .main-header {
-  font-size: 2rem;
-  color: #fff;
+  font-size: var(--header-primary);
+  color: var(--white);
   margin: 1rem;
   font-family: 'Raleway',
     sans-serif;
 }
 
 .main-little-desc {
-  color: #fff;
-  font-size: 1.062rem;
+  color: var(--white);
+  font-size: var(--little-desc);
   margin-bottom: 2rem;
   font-family: 'Lato',
     sans-serif;
@@ -105,8 +114,9 @@ nav {
   padding: 0.5rem;
   border-radius: 0 0.3rem 0.3rem 0;
   border: 0;
-  background: #DC3545;
-  color: #fff;
+  background: var(--red);
+  color: var(--white);
   font-family: 'Lato',
     sans-serif;
+  cursor: pointer;
 }
