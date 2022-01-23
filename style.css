@@ -16,6 +16,10 @@
   --white: #fff;
   --header-primary: 2rem;
   --little-desc: 1.062rem;
+  --primary-font: 'Raleway',
+    sans-serif;
+  --secondary-font: 'Lato',
+    sans-serif;
 }
 
 .container {
@@ -41,8 +45,7 @@ nav {
   color: var(--black);
   font-weight: 600;
   text-decoration: none;
-  font-family: 'Raleway',
-    sans-serif;
+  font-family: var(--primary-font);
   margin: 0 0.5rem;
 }
 
@@ -77,16 +80,14 @@ nav {
   font-size: var(--header-primary);
   color: var(--white);
   margin: 1rem;
-  font-family: 'Raleway',
-    sans-serif;
+  font-family: var(--primary-font);
 }
 
 .main-little-desc {
   color: var(--white);
   font-size: var(--little-desc);
   margin-bottom: 2rem;
-  font-family: 'Lato',
-    sans-serif;
+  font-family: var(--secondary-font);
 }
 
 .input-container {
@@ -116,7 +117,6 @@ nav {
   border: 0;
   background: var(--red);
   color: var(--white);
-  font-family: 'Lato',
-    sans-serif;
+  font-family: var(--secondary-font);
   cursor: pointer;
 }
