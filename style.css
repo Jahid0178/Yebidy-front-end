@@ -506,7 +506,7 @@ nav {
 
 /* responsive for small screen and laptops */
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 1025px) {
   .logo {
     margin: auto;
   }
@@ -576,4 +576,58 @@ nav {
   }
 
   /* trial days section end here */
+}
+
+/* responsive for pads and tablets */
+
+@media only screen and (max-width: 769px) {
+
+  /* Home section start here */
+
+  .input-container {
+    width: 85%;
+  }
+
+  .input-domain {
+    width: 100%;
+  }
+
+  /* Home section end here */
+
+  /* Services section start here */
+
+  .service-img {
+    display: none;
+  }
+
+  .services-container {
+    flex-direction: column;
+  }
+
+  .service-image {
+    display: block;
+  }
+
+  /* Services section end here */
+
+  /* Default setup section start here */
+
+  .setup-content {
+    grid-template-columns: 1fr;
+  }
+
+  /* Default setup section end here */
+
+  /* Footer section start here */
+
+  .footer-content {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-ul {
+    display: none;
+  }
+
+  /* Footer section end here */
 }
