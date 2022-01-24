@@ -20,7 +20,7 @@
   --red-dark: #c82333;
   --white: #fff;
   --header-primary: 2rem;
-  --little-desc: 1.062rem;
+  --little-desc: 1.5rem;
   --primary-font: 'Raleway',
     sans-serif;
   --secondary-font: 'Lato',
@@ -37,11 +37,22 @@
 
 ::selection {
   background: var(--orange);
+  color: var(--white);
 }
 
 .container {
   max-width: 78.12rem;
   margin: auto;
+}
+
+.underline::after {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 0.12rem;
+  background: var(--black);
+  margin: auto;
+  margin-top: 2rem;
 }
 
 .logo {
@@ -272,12 +283,16 @@ nav {
   font-family: var(--primary-font);
   text-align: center;
   margin-top: 3rem;
+  color: var(--black);
+  font-size: 2rem;
 }
 
 .services-title {
   font-family: var(--secondary-font);
   text-align: center;
   margin: 1rem 0;
+  font-size: var(--little-desc);
+  font-weight: 300;
 }
 
 .services-container {
@@ -286,7 +301,7 @@ nav {
 }
 
 .check {
-  width: 3rem;
+  width: 3.5rem;
 }
 
 .services-content-left {
@@ -304,6 +319,12 @@ nav {
 
 .services-left-content h3 {
   padding: 1rem 0;
+  font-family: var(--primary-font);
+}
+
+.services-left-content p {
+  line-height: 1.3rem;
+  font-family: var(--secondary-font);
 }
 
 .services-right-content {
@@ -312,6 +333,12 @@ nav {
 
 .services-right-content h3 {
   padding: 1rem 0;
+  font-family: var(--primary-font);
+}
+
+.services-right-content p {
+  line-height: 1.3rem;
+  font-family: var(--secondary-font);
 }
 
 .services-content-header {
@@ -348,8 +375,13 @@ nav {
   color: var(--white);
 }
 
+.short-text {
+  color: var(--orange);
+}
+
 .trial-days-btn {
-  padding: 0.7rem 1.5rem;
+  font-family: var(--secondary-font);
+  padding: 1rem 1.5rem;
   cursor: pointer;
   background: var(--orange);
   border: 0;
@@ -359,4 +391,68 @@ nav {
   letter-spacing: 0.1rem;
 }
 
+.trial-days-btn:hover {
+  background: var(--white);
+  color: var(--black);
+  transition: 0.3s ease-in;
+}
+
 /* trial days section end here */
+
+/* default setup start here */
+
+.setup-header {
+  font-family: var(--primary-font);
+  text-align: center;
+}
+
+.setup-container {
+  padding: 3rem 0;
+}
+
+.setup-header {
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.setup-title {
+  font-family: var(--secondary-font);
+  text-align: center;
+  font-size: var(--little-desc);
+  font-weight: 300;
+}
+
+.setup-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.62rem;
+  margin-top: 1rem;
+}
+
+.image-container {
+  width: 30%;
+  background: var(--light-orange);
+  border-radius: 50%;
+  margin: auto;
+}
+
+.image-container img {
+  padding: 1.3rem;
+}
+
+.box-content {
+  text-align: center;
+  margin: 1.25rem;
+}
+
+.box-content h3 {
+  font-family: var(--primary-font);
+  margin: 1rem 0;
+}
+
+.box-content p {
+  font-family: var(--secondary-font);
+}
+
+/* default setup end here */
