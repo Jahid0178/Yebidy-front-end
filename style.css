@@ -313,12 +313,12 @@ nav {
 
 .services-content-left {
   display: flex;
-  padding-right: 2rem;
+  padding-right: 4.5rem;
 }
 
 .services-content-right {
   display: flex;
-  padding-left: 2rem;
+  padding-left: 4.5rem;
 }
 
 .services-left-content {
