@@ -324,3 +324,39 @@ nav {
 
 
 /* services section end here */
+
+/* trial days section start here */
+
+.trial-days-container {
+  background: var(--dark-black);
+  padding: 3rem 0;
+}
+
+.trial-days-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trial-days-header {
+  font-family: var(--primary-font);
+  color: var(--white);
+}
+
+.trial-days-title {
+  font-family: var(--secondary-font);
+  color: var(--white);
+}
+
+.trial-days-btn {
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+  background: var(--orange);
+  border: 0;
+  color: var(--white);
+  border-radius: 0.2rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+/* trial days section end here */
