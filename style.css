@@ -35,6 +35,11 @@
   --tia-light-green: #95D03A;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 ::selection {
   background: var(--orange);
   color: var(--white);
