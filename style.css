@@ -594,6 +594,10 @@ nav {
 
   /* Home section end here */
 
+  .image-container img {
+    padding: 2rem;
+  }
+
   /* Services section start here */
 
   .service-img {
