@@ -159,7 +159,7 @@ nav {
 
 .service-container {
   width: 100%;
-  height: 100vh;
+  padding: 5rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,7 +249,7 @@ nav {
 
 .content {
   background: var(--dark-black);
-  padding: 5rem 0;
+  padding: 8rem 0;
 }
 
 .content-container {
@@ -281,6 +281,10 @@ nav {
 /* content section end here */
 
 /* services section start here */
+
+.services-content {
+  padding: 8rem 0;
+}
 
 .services-main-header {
   font-family: var(--primary-font);
@@ -359,7 +363,7 @@ nav {
 
 .trial-days-container {
   background: var(--dark-black);
-  padding: 3rem 0;
+  padding: 8rem 0;
 }
 
 .trial-days-content {
@@ -410,7 +414,7 @@ nav {
 }
 
 .setup-container {
-  padding: 3rem 0;
+  padding: 8rem 0;
 }
 
 .setup-header {
