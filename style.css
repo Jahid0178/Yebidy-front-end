@@ -265,3 +265,62 @@ nav {
 }
 
 /* content section end here */
+
+/* services section start here */
+
+.services-main-header {
+  font-family: var(--primary-font);
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.services-title {
+  font-family: var(--secondary-font);
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.services-container {
+  display: flex;
+  align-items: center;
+}
+
+.check {
+  width: 3rem;
+}
+
+.services-content-left {
+  display: flex;
+}
+
+.services-content-right {
+  display: flex;
+}
+
+.services-left-content {
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.services-left-content h3 {
+  padding: 1rem 0;
+}
+
+.services-right-content {
+  margin-left: 1rem;
+}
+
+.services-right-content h3 {
+  padding: 1rem 0;
+}
+
+.services-content-header {
+  font-family: var(--primary-font);
+}
+
+.services-content-title {
+  font-family: var(--secondary-font);
+}
+
+
+/* services section end here */
