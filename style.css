@@ -442,7 +442,8 @@ nav {
 }
 
 .image-container {
-  width: 30%;
+  max-width: 6rem;
+  width: 100%;
   background: var(--light-orange);
   border-radius: 50%;
   margin: auto;
@@ -593,10 +594,6 @@ nav {
   }
 
   /* Home section end here */
-
-  .image-container img {
-    padding: 2rem;
-  }
 
   /* Services section start here */
 
