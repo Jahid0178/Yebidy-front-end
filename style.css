@@ -42,6 +42,7 @@
 
 .container {
   max-width: 78.12rem;
+  padding: 0 1rem;
   margin: auto;
 }
 
@@ -241,6 +242,7 @@ nav {
 
 .service-img {
   width: 45rem;
+  height: auto;
 }
 
 /* service section end here */
@@ -500,3 +502,78 @@ nav {
 }
 
 /* Footer section end here */
+
+
+/* responsive for small screen and laptops */
+
+@media only screen and (max-width: 769px) {
+  .logo {
+    margin: auto;
+  }
+
+  .nav-ul {
+    display: none;
+  }
+
+  .service-container {
+    padding: 3rem;
+  }
+
+  .service-content {
+    flex-direction: column;
+  }
+
+  .service-img {
+    padding: 2rem 0;
+  }
+
+  /* content section start here */
+
+  .content-container {
+    flex-direction: column;
+  }
+
+  .content-box {
+    margin: 2rem 1rem;
+  }
+
+  .services-content {
+    padding: 2rem 1rem;
+  }
+
+  .service-image {
+    display: none;
+  }
+
+  .services-content-right {
+    padding-left: 2rem;
+  }
+
+  .services-content-left {
+    padding-right: 2rem;
+  }
+
+  /* content section end here */
+
+  /* trial days section start here */
+
+  .trial-days-content {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 1rem;
+  }
+
+  .trial-days-header {
+    margin: 1rem 0;
+  }
+
+  .trial-days-title {
+    margin: 1.5rem 0;
+  }
+
+  .footer-container {
+    padding: 2.5rem 1rem;
+  }
+
+  /* trial days section end here */
+}
