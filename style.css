@@ -343,12 +343,16 @@ nav>.container {
 
 .services-content-left {
   display: flex;
+  align-items: flex-start;
   padding-right: 4.5rem;
+  margin: 2rem 0;
 }
 
 .services-content-right {
   display: flex;
+  align-items: flex-start;
   padding-left: 4.5rem;
+  margin: 2rem 0;
 }
 
 .services-left-content {
@@ -357,7 +361,7 @@ nav>.container {
 }
 
 .services-left-content h3 {
-  padding: 1rem 0;
+  padding-bottom: 1rem;
 
 }
 
@@ -371,7 +375,7 @@ nav>.container {
 }
 
 .services-right-content h3 {
-  padding: 1rem 0;
+  padding-bottom: 1rem;
 
 }
 
