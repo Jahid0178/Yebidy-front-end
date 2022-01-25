@@ -11,21 +11,24 @@
 
 <body>
   <!-- Start Navigation in here -->
-  <nav class="container">
-    <img class="logo" src="./Images/logo.png" alt="Yebidy">
-    <ul class="nav-ul">
-      <li class="nav-li"><a class="nav-link" href="#">HOME</a></li>
-      <li class="nav-li"><a class="nav-link" href="#">FEATURES</a></li>
-      <li class="nav-li"><a class="nav-link" href="#">PRICING</a></li>
-      <li class="nav-li"><a class="nav-link" href="#">CREATE WEBSITE</a></li>
-      <li class="nav-li"><a class="nav-link" href="#">SUPPORT</a></li>
-      <li class="nav-li"><a class="user-link" href="#"><img class="user-icon" src="./Images/user.svg" alt="" /></a></li>
-    </ul>
-    <!-- humberger menu -->
-    <div class="nav-menu">
-      <div class="line1"></div>
-      <div class="line2"></div>
-      <div class="line3"></div>
+  <nav>
+    <div class="container">
+      <img class="logo" src="./Images/logo.png" alt="Yebidy">
+      <ul class="nav-ul" id="drawer">
+        <li class="nav-li"><a class="nav-link" href="#">HOME</a></li>
+        <li class="nav-li"><a class="nav-link" href="#">FEATURES</a></li>
+        <li class="nav-li"><a class="nav-link" href="#">PRICING</a></li>
+        <li class="nav-li"><a class="nav-link" href="#">CREATE WEBSITE</a></li>
+        <li class="nav-li"><a class="nav-link" href="#">SUPPORT</a></li>
+        <li class="nav-li"><a class="user-link" href="#"><img class="user-icon" src="./Images/user.svg" alt="" /></a>
+        </li>
+      </ul>
+      <!-- humberger menu -->
+      <div class="nav-menu" id="toggle-btn">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
     </div>
   </nav>
   <!-- Home section start in here -->
@@ -313,6 +316,8 @@
   </section>
 
   <!-- Footer section end here -->
+
+  <script src="js/app.js"></script>
 
 </body>
 

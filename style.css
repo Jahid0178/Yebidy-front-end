@@ -35,10 +35,6 @@
   --tia-light-green: #95D03A;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 img {
   width: 100%;
   height: auto;
@@ -50,6 +46,7 @@ img {
 }
 
 .container {
+  width: 100%;
   max-width: 78.12rem;
   padding: 0 1rem;
   margin: auto;
@@ -70,6 +67,16 @@ img {
 }
 
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 333;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 10px 0px;
+}
+
+nav>.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -535,25 +542,45 @@ nav {
 /* responsive for small screen and laptops */
 
 @media only screen and (max-width: 1025px) {
-
+  body {
+    overflow-x: hidden;
+  }
 
   .nav-menu {
     display: block;
+    cursor: pointer;
   }
 
   .nav-ul {
-    width: 55vh;
-    height: 100vh;
+    width: 18rem;
+    height: 100%;
     border: 1px solid #fff;
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 4.5rem;
     display: flex;
-    justify-content: space-around;
+    padding: 1rem 0;
     flex-direction: column;
     background: #fff;
     z-index: 2;
     transform: translateX(100%);
+    transition: 0.5s ease-out;
+  }
+
+  .nav-li {
+    padding: 1rem;
+  }
+
+  .nav-li a {
+    font-size: 1.50rem;
+  }
+
+  .active-drawer .nav-ul {
+    transform: translateX(0);
+  }
+
+  .active-drawer {
+    overflow-y: hidden;
   }
 
   .logo {
