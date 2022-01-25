@@ -35,6 +35,10 @@
   --tia-light-green: #95D03A;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -96,6 +100,22 @@ nav {
   width: 0.87rem;
   color: var(--orange);
 }
+
+/* humberger menu start here */
+
+.nav-menu {
+  display: none;
+}
+
+.nav-menu div {
+  width: 1.87rem;
+  height: 0.31rem;
+  background: #333;
+  margin: 0.31rem;
+  border-radius: 0.31rem;
+}
+
+/* humberger menu end here */
 
 .home-container {
   width: 100%;
@@ -507,18 +527,37 @@ nav {
   height: 1rem;
 }
 
+
+
 /* Footer section end here */
 
 
 /* responsive for small screen and laptops */
 
 @media only screen and (max-width: 1025px) {
-  .logo {
-    margin: auto;
+
+
+  .nav-menu {
+    display: block;
   }
 
   .nav-ul {
-    display: none;
+    width: 55vh;
+    height: 100vh;
+    border: 1px solid #fff;
+    position: absolute;
+    right: 0;
+    top: 4.5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #fff;
+    z-index: 2;
+    transform: translateX(100%);
+  }
+
+  .logo {
+    margin: auto;
   }
 
   .service-container {
@@ -596,6 +635,10 @@ nav {
 
   .input-domain {
     width: 100%;
+  }
+
+  .nav-menu {
+    display: block;
   }
 
   /* Home section end here */
