@@ -202,6 +202,7 @@ nav>.container {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 0.8rem;
 }
 
 .service-header {
@@ -230,6 +231,8 @@ nav>.container {
   transition: 0.5s;
   cursor: pointer;
 }
+
+
 
 .social-link-li {
   display: inline-block;
@@ -317,7 +320,7 @@ nav>.container {
 /* services section start here */
 
 .services-content {
-  padding: 3rem 0;
+  padding: 3rem 1rem;
 }
 
 .services-main-header {
@@ -552,7 +555,7 @@ nav>.container {
   }
 
   .nav-ul {
-    width: 18rem;
+    width: 100%;
     height: 100%;
     border: 1px solid #fff;
     position: fixed;
@@ -575,6 +578,10 @@ nav>.container {
     font-size: 1.50rem;
   }
 
+  .nav-li .user-icon {
+    display: none;
+  }
+
   .active-drawer .nav-ul {
     transform: translateX(0);
   }
@@ -588,7 +595,7 @@ nav>.container {
   }
 
   .service-container {
-    padding: 3rem;
+    padding: 3rem 1rem;
   }
 
   .service-content {
