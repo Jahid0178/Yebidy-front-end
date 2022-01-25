@@ -29,7 +29,6 @@
 
 body {
   font-family: var(--primary-font);
-  overflow-x: hidden;
 }
 
 img {
@@ -190,9 +189,6 @@ nav>.container {
 .service-container {
   width: 100%;
   padding: 5rem 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .service-content {
@@ -535,9 +531,6 @@ nav>.container {
 /* responsive for small screen and laptops */
 
 @media only screen and (max-width: 1025px) {
-  body {
-    overflow-x: hidden;
-  }
 
   .nav-menu {
     display: block;
