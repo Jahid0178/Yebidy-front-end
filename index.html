@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yebidy</title>
   <link rel="stylesheet" href="style.css">
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -32,7 +34,7 @@
     </div>
   </nav>
   <!-- Home section start in here -->
-  <section class="home-container">
+  <section data-aos="fade-up" class="home-container">
     <div class="home-content">
       <h2 class="main-header">CREATE YOUR PERSONAL OR BUSINESS WEBSITE</h2>
       <p class="main-little-desc">Enter your domain name and start creating your website today</p>
@@ -42,9 +44,10 @@
       </div>
     </div>
   </section>
+
   <!-- Service Section Start Here -->
 
-  <section class="service-container">
+  <section data-aos="fade-right" class="service-container">
     <div class="container">
       <div class="service-content">
         <div>
@@ -100,7 +103,7 @@
 
   <!-- Content section start here -->
 
-  <section class="content">
+  <section data-aos="fade-left" class="content">
     <div class="container">
       <div class="content-container">
         <div class="content-box">
@@ -132,7 +135,7 @@
 
   <!-- Services section start here -->
 
-  <section class="container">
+  <section data-aos="fade-up" data-aos-duration="3000" class="container">
     <div class="services-content">
       <h1 class="services-main-header">BENEFITS OF CREATING A WEBSITE WITH YEBIDY</h1>
       <p class="services-title underline">Creating your website with Yebidy comes with a whole host of benefits.</p>
@@ -230,7 +233,7 @@
 
   <!-- Default setup start here -->
 
-  <section class="container">
+  <section data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="container">
     <div class="setup-container">
       <h2 class="setup-header">DEFAULT SETUPS</h2>
       <p class="setup-title underline">Choose from one of the following default setups to save time and then just
@@ -318,6 +321,12 @@
   <!-- Footer section end here -->
 
   <script src="js/app.js"></script>
+  <!-- AOS Animation JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
