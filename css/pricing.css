@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #333;
+  --dark-black: #000;
+  --orange: #FF6600;
+  --light-orange: #ff7a22;
+  --red: #DC3545;
+  --red-dark: #c82333;
+  --white: #fff;
+  --header-primary: 2rem;
+  --little-desc: 1.5rem;
+  --primary-font: 'Raleway',
+    sans-serif;
+  --light-green: #25d366;
+  --light-blue: #4267B2;
+  --light-sky: #55acee;
+  --light-gray: #7d7d7d;
+  --yellow: #ffbd00;
+  --tia-light-green: #95D03A;
+  --white-smoke: #f5f5f5;
+}
+
+.container {
+  width: 100%;
+  max-width: 78.12rem;
+  padding: 0 1rem;
+  margin: auto;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+::selection {
+  color: var(--white);
+  background: var(--orange);
+}
+
+/* reuseable components start here */
+
+.trial-btn {
+  background: var(--light-orange);
+  padding: 0.93rem 1.87rem;
+  border: 0;
+  color: var(--white);
+  border-radius: 0.13rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* reuseable components end here */
+
+/* navbar start here */
+
+.logo {
+  width: 10rem;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 333;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 10px 0px;
+}
+
+nav>.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-li {
+  display: inline-block;
+}
+
+.nav-link {
+  color: var(--black);
+  font-weight: 600;
+  text-decoration: none;
+
+  margin: 0 0.5rem;
+}
+
+.nav-link:hover {
+  color: var(--orange);
+  transition: 0.3s;
+}
+
+.user-link {
+  margin-left: 2rem;
+}
+
+.user-icon {
+  width: 0.87rem;
+  color: var(--orange);
+}
+
+/* navbar end here */
+
+/* humberger menu start here */
+
+.nav-menu {
+  display: none;
+}
+
+.nav-menu div {
+  width: 1.87rem;
+  height: 0.31rem;
+  background: #333;
+  margin: 0.31rem;
+  border-radius: 0.31rem;
+}
+
+/* humberger menu end here */
+
+/* humberger menu start here */
+
+.nav-menu {
+  display: none;
+}
+
+.nav-menu div {
+  width: 1.87rem;
+  height: 0.31rem;
+  background: #333;
+  margin: 0.31rem;
+  border-radius: 0.31rem;
+}
+
+/* humberger menu end here */
+
+.page-title {
+  padding: 3rem 0;
+  background: var(--white-smoke);
+  margin-top: 4.5rem;
+}
+
+/* Personal website section start here */
+
+.pricing-box {
+  display: grid;
+  grid-template-columns: auto 15.6rem;
+  margin: 3.75rem 0;
+  border: 0.12rem solid #ececec;
+  border-radius: 0.188rem;
+}
+
+.pricing-desc {
+  padding: 1.5rem;
+}
+
+.pricing-header {
+  margin-bottom: 1rem;
+  color: var(--black);
+}
+
+.pricing-ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style-type: none;
+}
+
+.pricing-ul li {
+  margin: 0.188rem;
+}
+
+.check-li {
+  width: 0.93rem;
+  margin-right: 0.62rem;
+}
+
+.pricing-action {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.pricing-action h2 {
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+.pricing-action p {
+  margin: 0.62rem 0;
+}
+
+/* Personal website section end here */
