@@ -254,4 +254,12 @@ nav>.container {
   .pricing-ul {
     grid-template-columns: 1fr;
   }
+
+  .footer-container {
+    text-align: center;
+  }
+
+  .footer-ul {
+    display: none;
+  }
 }
