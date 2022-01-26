@@ -46,7 +46,7 @@ body {
 /* reuseable components start here */
 
 .trial-btn {
-  background: var(--light-orange);
+  background: var(--orange);
   padding: 0.93rem 1.87rem;
   border: 0;
   color: var(--white);
@@ -54,6 +54,10 @@ body {
   cursor: pointer;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+.trial-btn:hover {
+  background: var(--light-orange);
 }
 
 /* reuseable components end here */
