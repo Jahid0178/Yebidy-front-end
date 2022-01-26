@@ -38,6 +38,10 @@ body {
   margin-top: 2rem;
 }
 
+.heading {
+  text-align: center;
+}
+
 /* reuseable component end here */
 
 img {
@@ -45,10 +49,74 @@ img {
 }
 
 
+.logo {
+  width: 10rem;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 333;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 10px 0px;
+}
+
+nav>.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-li {
+  display: inline-block;
+}
+
+.nav-link {
+  color: var(--black);
+  font-weight: 600;
+  text-decoration: none;
+
+  margin: 0 0.5rem;
+}
+
+.nav-link:hover {
+  color: var(--orange);
+  transition: 0.3s;
+}
+
+.user-link {
+  margin-left: 2rem;
+}
+
+.user-icon {
+  width: 0.87rem;
+  color: var(--orange);
+}
+
+/* humberger menu start here */
+
+.nav-menu {
+  display: none;
+}
+
+.nav-menu div {
+  width: 1.87rem;
+  height: 0.31rem;
+  background: #333;
+  margin: 0.31rem;
+  border-radius: 0.31rem;
+}
+
+/* humberger menu end here */
+
+
 
 .page-title {
   padding: 3rem 0;
   background: var(--white-smoke);
+  margin-top: 4.5rem;
 }
 
 /* feature card section start here */
@@ -98,7 +166,7 @@ img {
 .module-content-box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 2.5rem 0;
+  margin: 3rem 0;
 }
 
 .module-box {
@@ -119,3 +187,34 @@ img {
 }
 
 /* module section end here */
+
+/* module available section start here */
+
+.module-available-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.circle-icon {
+  display: inline-block;
+  width: 1rem;
+}
+
+.module-available-container {
+  margin: 2rem;
+}
+
+.module-available-content {
+  margin: 0 1.25rem 1.25rem 0;
+}
+
+.module-available-inner-content {
+  margin-bottom: 1rem;
+}
+
+.module-available-inner-content h3 {
+  display: inline-block;
+  margin-left: 0.62rem;
+}
+
+/* module available section end here */
