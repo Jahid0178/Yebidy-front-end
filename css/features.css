@@ -232,3 +232,18 @@ nav>.container {
 }
 
 /* module available section end here */
+
+/* admin control panel section start here */
+
+.control-panel-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1rem;
+  align-items: center;
+}
+
+.imac {
+  width: 28rem;
+}
+
+/* admin control panel section end here */
