@@ -154,6 +154,7 @@ img {
   justify-content: center;
   align-items: center;
   padding: 0 0.8rem;
+  overflow-x: hidden;
 }
 
 .service-header {
