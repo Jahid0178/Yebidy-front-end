@@ -276,3 +276,105 @@ nav>.container {
 }
 
 /* Try demo section end here */
+
+
+/* reponsive for small screen and laptops */
+
+@media only screen and (max-width: 1025px) {
+  .nav-menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-ul {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff;
+    position: fixed;
+    right: 0;
+    top: 4.5rem;
+    display: flex;
+    padding: 1rem 0;
+    flex-direction: column;
+    background: #fff;
+    z-index: 2;
+    transform: translateX(100%);
+    transition: 0.5s ease-out;
+  }
+
+  .nav-li {
+    padding: 1rem;
+  }
+
+  .nav-li a {
+    font-size: 1.50rem;
+  }
+
+  .nav-li .user-icon {
+    display: none;
+  }
+
+  .active-drawer .nav-ul {
+    transform: translateX(0);
+  }
+
+  .active-drawer {
+    overflow-y: hidden;
+  }
+
+  .logo {
+    margin: auto;
+  }
+
+  .service-container {
+    padding: 3rem 1rem;
+  }
+
+  .service-content {
+    flex-direction: column;
+  }
+
+  .service-img {
+    padding: 2rem 0;
+  }
+}
+
+/* responsive for pads and tablets */
+
+@media only screen and (max-width: 769px) {
+  .features-card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .module-content-box {
+    grid-template-columns: 1fr;
+  }
+
+  .module-box {
+    margin: 2rem 0;
+  }
+
+  .module-available-container {
+    grid-template-columns: 1fr;
+  }
+
+  .module-available-content {
+    margin: 2rem 0;
+  }
+
+  .control-panel-container {
+    grid-template-columns: 1fr;
+  }
+
+  .control-panel-container h2 {
+    margin-top: 2rem;
+  }
+
+  .footer-content {
+    text-align: center;
+  }
+
+  .footer-ul {
+    display: none;
+  }
+}
