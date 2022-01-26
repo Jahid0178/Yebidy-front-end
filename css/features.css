@@ -342,6 +342,10 @@ nav>.container {
 /* responsive for pads and tablets */
 
 @media only screen and (max-width: 769px) {
+  .imac {
+    padding: 0 0.62rem;
+  }
+
   .features-card-container {
     grid-template-columns: 1fr;
   }
