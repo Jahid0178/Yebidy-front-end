@@ -208,7 +208,7 @@ nav>.container {
 
 .circle-icon {
   display: inline-block;
-  width: 1rem;
+  width: 1.5rem;
 }
 
 .module-available-container {
@@ -221,6 +221,8 @@ nav>.container {
 
 .module-available-inner-content {
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .module-available-inner-content h3 {
