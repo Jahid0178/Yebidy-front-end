@@ -1,0 +1,36 @@
+/* Footer section start here */
+
+.footer-container {
+  background: var(--black);
+  padding: 2.5rem 0;
+  color: var(--light-gray);
+
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--light-gray);
+}
+
+.footer-ul {
+  list-style: none;
+}
+
+.footer-li {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+.footer-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+
+
+/* Footer section end here */

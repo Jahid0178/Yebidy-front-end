@@ -1,0 +1,41 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 333;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 10px 0px;
+}
+
+nav>.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-li {
+  display: inline-block;
+}
+
+.nav-link {
+  color: var(--black);
+  font-weight: 600;
+  text-decoration: none;
+
+  margin: 0 0.5rem;
+}
+
+.nav-link:hover {
+  color: var(--orange);
+  transition: 0.3s;
+}
+
+.user-link {
+  margin-left: 2rem;
+}
+
+.user-icon {
+  width: 0.87rem;
+  color: var(--orange);
+}
