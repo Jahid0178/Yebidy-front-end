@@ -31,6 +31,7 @@
 
 body {
   font-family: var(--primary-font);
+  overflow-x: hidden;
 }
 
 /* reuseable components start here */
@@ -170,7 +171,7 @@ nav>.container {
 .img-container {
   display: flex;
   justify-content: center;
-  margin: 3rem;
+  margin-top: 3rem;
 }
 
 .module-img {
@@ -245,10 +246,6 @@ nav>.container {
 
 .imac-container {
   margin: auto;
-}
-
-.imac {
-  width: 25rem;
 }
 
 .cp-desc-one,
@@ -342,9 +339,6 @@ nav>.container {
 /* responsive for pads and tablets */
 
 @media only screen and (max-width: 769px) {
-  .imac {
-    padding: 0 0.62rem;
-  }
 
   .features-card-container {
     grid-template-columns: 1fr;
