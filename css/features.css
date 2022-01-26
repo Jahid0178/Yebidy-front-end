@@ -174,10 +174,6 @@ nav>.container {
   margin-top: 3rem;
 }
 
-.module-img {
-  width: 60%;
-}
-
 .module-content-box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
