@@ -275,9 +275,4 @@ nav>.container {
   padding-bottom: 1rem;
 }
 
-.demo-title::after {
-  content: "f0da";
-  background: var(--white);
-}
-
 /* Try demo section end here */
