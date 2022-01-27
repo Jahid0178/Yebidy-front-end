@@ -26,6 +26,9 @@
   --yellow: #ffbd00;
   --tia-light-green: #95D03A;
   --white-smoke: #f5f5f5;
+  --light-tomato: #DD4B39;
+  --navy-blue: #3B5998;
+  --ash: #6c757d;
 }
 
 body {
@@ -73,3 +76,86 @@ body {
 }
 
 /* humberger menu end here */
+
+.page-title {
+  padding: 3rem 0;
+  background: var(--white-smoke);
+  margin-top: 4.5rem;
+}
+
+/* create account section start here */
+
+.content {
+  padding: 5rem 0;
+}
+
+.content-box {
+  display: grid;
+  grid-template-columns: 1fr 21.8rem;
+}
+
+.sign-up-box {
+  color: var(--black);
+}
+
+.sign-up-box .sign-up-title,
+.sign-up-box .sign-up-btn-content {
+  text-align: center;
+}
+
+.sign-up-box .sign-up-desc {
+  margin-top: 2.5rem;
+}
+
+.sign-up-btn-content {
+  margin-top: 1rem;
+}
+
+.google-btn {
+  padding: 0.7rem 1.25rem;
+  text-transform: uppercase;
+  margin-right: 0.5rem;
+  background: var(--light-tomato);
+  border: 0;
+  color: var(--white);
+  border-radius: 0.18rem;
+  cursor: pointer;
+}
+
+.facebook-btn {
+  padding: 0.7rem 1.25rem;
+  text-transform: uppercase;
+  background: var(--navy-blue);
+  border: 0;
+  color: var(--white);
+  border-radius: 0.18rem;
+  cursor: pointer;
+}
+
+.sign-up-input-content {
+  margin: 4rem 0;
+}
+
+.sign-up-input-content input,
+select {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: var(--black);
+  outline: none;
+  border-radius: 0.188rem;
+  border: 0.063rem solid var(--light-gray);
+  margin: 0.62rem 0;
+}
+
+.create-website-btn {
+  padding: 0.813rem 1.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background: var(--ash);
+  color: var(--white);
+  border: 0;
+  border-radius: 0.188rem;
+}
+
+/* create account section end here */
