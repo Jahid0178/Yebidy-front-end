@@ -31,3 +31,45 @@
 body {
   font-family: var(--primary-font);
 }
+
+::selection {
+  background: var(--orange);
+  color: var(--white);
+}
+
+.container {
+  width: 100%;
+  max-width: 78.12rem;
+  padding: 0 1rem;
+  margin: auto;
+}
+
+.underline::after {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 0.12rem;
+  background: var(--black);
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.logo {
+  width: 10rem;
+}
+
+/* humberger menu start here */
+
+.nav-menu {
+  display: none;
+}
+
+.nav-menu div {
+  width: 1.87rem;
+  height: 0.31rem;
+  background: #333;
+  margin: 0.31rem;
+  border-radius: 0.31rem;
+}
+
+/* humberger menu end here */
