@@ -158,4 +158,73 @@ select {
   border-radius: 0.188rem;
 }
 
+.supports-container {
+  padding: 0 1.87rem;
+}
+
+.question-content {
+  padding: 1.25rem;
+  background: var(--light-orange);
+  color: var(--white);
+  border-radius: 0.188rem;
+}
+
+.question-content h3 {
+  padding: 1.25rem 0;
+}
+
+.question-content p {
+  padding-bottom: 1.25rem;
+}
+
+.view-btn {
+  padding: 0.93rem 1.25rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.2);
+  color: var(--white);
+  border: 0;
+  border-radius: 0.188rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.view-btn:hover {
+  color: var(--black);
+  background: var(--white);
+  transition: 0.5s;
+}
+
+.support-content {
+  padding: 1.25rem;
+  margin-top: 1.56rem;
+  border: 0.125rem solid var(--ash);
+  border-radius: 0.188rem;
+}
+
+.support-content h3 {
+  padding: 1.25rem 0;
+}
+
+.support-content p {
+  padding-bottom: 1.25rem;
+}
+
+.chat-btn {
+  padding: 0.93rem 1.25rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: var(--black);
+  color: var(--white);
+  border: 0;
+  border-radius: 0.188rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.chat-btn:hover {
+  background: var(--light-orange);
+  transition: 0.5s;
+}
+
 /* create account section end here */
