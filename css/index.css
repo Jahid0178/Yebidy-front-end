@@ -566,6 +566,9 @@ img {
 /* responsive for pads and tablets */
 
 @media only screen and (max-width: 769px) {
+  .active-drawer nav {
+    top: 0 !important;
+  }
 
   /* Home section start here */
 
