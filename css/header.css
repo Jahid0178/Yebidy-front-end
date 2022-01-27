@@ -6,6 +6,7 @@ nav {
   background: #fff;
   z-index: 333;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 10px 0px;
+  transition: 0.5s;
 }
 
 nav>.container {
