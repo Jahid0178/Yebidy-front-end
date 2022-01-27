@@ -592,6 +592,10 @@ img {
     flex-direction: column;
   }
 
+  .service-content {
+    padding: 0.62rem;
+  }
+
   .service-image {
     display: block;
   }
