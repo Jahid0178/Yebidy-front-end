@@ -26,6 +26,7 @@
   --yellow: #ffbd00;
   --tia-light-green: #95D03A;
   --white-smoke: #f5f5f5;
+  --ash: #6c757d;
 }
 
 body {
@@ -183,6 +184,7 @@ nav>.container {
 .accordion .contentBox {
   position: relative;
   margin: 20px 10px;
+  cursor: pointer;
 }
 
 .accordion .contentBox .label {
@@ -199,11 +201,165 @@ nav>.container {
   font-size: 2em;
 }
 
+.accordion .contentBox.active .label::after {
+  content: "-";
+}
+
 .accordion .contentBox .content {
   position: relative;
   height: 0;
-  overflow: hidden;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.accordion .contentBox.active .content {
+  height: auto;
+}
+
+
+.supports-container {
+  padding: 0 1.87rem;
+}
+
+.question-content {
+  padding: 1.25rem;
+  background: var(--light-orange);
+  color: var(--white);
+  border-radius: 0.188rem;
+}
+
+.question-content h3 {
+  padding: 1.25rem 0;
+}
+
+.question-content p {
+  padding-bottom: 1.25rem;
+}
+
+.view-btn {
+  padding: 0.93rem 1.25rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.2);
+  color: var(--white);
+  border: 0;
+  border-radius: 0.188rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.view-btn:hover {
+  color: var(--black);
+  background: var(--white);
+  transition: 0.5s;
+}
+
+.support-content {
+  padding: 1.25rem;
+  margin-top: 1.56rem;
+  border: 0.125rem solid var(--ash);
+  border-radius: 0.188rem;
+}
+
+.support-content h3 {
+  padding: 1.25rem 0;
+}
+
+.support-content p {
+  padding-bottom: 1.25rem;
+}
+
+.chat-btn {
+  padding: 0.93rem 1.25rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: var(--black);
+  color: var(--white);
+  border: 0;
+  border-radius: 0.188rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.chat-btn:hover {
+  background: var(--light-orange);
   transition: 0.5s;
 }
 
 /* Support page end here */
+
+
+/* responsive for small screen and laptops */
+
+@media only screen and (max-width: 1025px) {
+  .nav-menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-ul {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff;
+    position: fixed;
+    right: 0;
+    top: 4.5rem;
+    display: flex;
+    padding: 1rem 0;
+    flex-direction: column;
+    background: #fff;
+    z-index: 2;
+    transform: translateX(100%);
+    transition: 0.5s ease-out;
+  }
+
+  .nav-li {
+    padding: 1rem;
+  }
+
+  .nav-li a {
+    font-size: 1.50rem;
+  }
+
+  .nav-li .user-icon {
+    display: none;
+  }
+
+  .active-drawer .nav-ul {
+    transform: translateX(0);
+  }
+
+  .active-drawer {
+    overflow-y: hidden;
+  }
+
+  .content-box {
+    grid-template-columns: 1fr;
+  }
+
+  .support-container {
+    grid-template-columns: 1fr;
+  }
+
+  .supports-container {
+    padding: 0;
+  }
+
+}
+
+/* responsive for pads and tablets */
+
+@media only screen and (max-width: 769px) {
+  .accordion .contentBox .label::after {
+    display: none;
+  }
+
+  .footer-content {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-ul {
+    display: none;
+  }
+}
