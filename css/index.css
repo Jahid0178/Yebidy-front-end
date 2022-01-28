@@ -294,8 +294,9 @@ img {
   align-items: center;
 }
 
-.check {
-  width: 3.5rem;
+.check-svg-left {
+  width: 20%;
+  height: 3.5rem
 }
 
 .service-image {
@@ -319,7 +320,13 @@ img {
 
 .services-left-content {
   text-align: right;
+  width: 80%;
   margin-right: 1rem;
+}
+
+.services-third {
+  text-align: right;
+  margin-right: 0.313rem;
 }
 
 .services-left-content h3 {
@@ -334,6 +341,7 @@ img {
 
 .services-right-content {
   margin-left: 1rem;
+  width: 80%;
 }
 
 .services-right-content h3 {
