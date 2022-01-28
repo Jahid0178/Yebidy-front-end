@@ -228,6 +228,14 @@ img {
   height: 1rem;
 }
 
+.service-inner-content {
+  width: 50%;
+}
+
+.service-img-container {
+  width: 50%;
+}
+
 .service-img {
   width: 45rem;
   height: auto;
