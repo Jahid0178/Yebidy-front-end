@@ -34,6 +34,11 @@ body {
   overflow-x: hidden;
 }
 
+::selection {
+  background: var(--orange);
+  color: var(--white);
+}
+
 /* reuseable components start here */
 
 .container {
