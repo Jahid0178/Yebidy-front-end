@@ -28,10 +28,7 @@
   color: var(--white);
 }
 
-.footer-inner-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
+
 
 .footer-content {
   padding: 0.625rem;

@@ -465,6 +465,11 @@ img {
   margin: 1rem 0;
 }
 
+.footer-inner-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 /* default setup end here */
 
 /* responsive for small screen and laptops */
@@ -577,6 +582,10 @@ img {
   }
 
   /* trial days section end here */
+
+  .footer-inner-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /* responsive for pads and tablets */
@@ -631,6 +640,15 @@ img {
   /* Default setup section end here */
 
   /* Footer section start here */
+
+  .footer-inner-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-header,
+  .footer-link-ul {
+    text-align: center;
+  }
 
   .footer-content {
     justify-content: center;
