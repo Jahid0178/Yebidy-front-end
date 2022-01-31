@@ -118,6 +118,17 @@
   border-radius: 0.188rem;
 }
 
+.footer-link {
+  text-decoration: none;
+  color: var(--light-gray);
+}
+
+.copyright-container {
+  padding: 0.625rem;
+}
+
+
+
 /* Footer section end here */
 
 

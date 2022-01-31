@@ -470,6 +470,15 @@ img {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.copyright-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.terms-condition-section {
+  text-align: right;
+}
+
 /* default setup end here */
 
 /* responsive for small screen and laptops */
@@ -657,6 +666,16 @@ img {
 
   .footer-ul {
     display: none;
+  }
+
+  .copyright-container {
+    grid-template-columns: 1fr;
+  }
+
+  .copyright-section,
+  .terms-condition-section {
+    text-align: center;
+    padding: 0.625rem;
   }
 
   /* Footer section end here */
