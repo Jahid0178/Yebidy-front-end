@@ -229,6 +229,24 @@ select {
 
 /* create account section end here */
 
+/* footer section start here */
+
+.footer-inner-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.copyright-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.terms-condition-section {
+  text-align: right;
+}
+
+/* footer section end here */
+
 
 /* responsive for small screen and laptops */
 
@@ -281,6 +299,10 @@ select {
   .supports-container {
     padding: 0;
   }
+
+  .footer-inner-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /* responsive for pads and tablets */
@@ -293,5 +315,33 @@ select {
 
   .footer-ul {
     display: none;
+  }
+
+  .footer-inner-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-header,
+  .footer-link-ul {
+    text-align: center;
+  }
+
+  .footer-content {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-ul {
+    display: none;
+  }
+
+  .copyright-container {
+    grid-template-columns: 1fr;
+  }
+
+  .copyright-section,
+  .terms-condition-section {
+    text-align: center;
+    padding: 0.625rem;
   }
 }

@@ -272,6 +272,23 @@ nav>.container {
 
 /* Try demo section end here */
 
+/* footer section start here */
+
+.footer-inner-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.copyright-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.terms-condition-section {
+  text-align: right;
+}
+
+/* footer section end here */
 
 /* reponsive for small screen and laptops */
 
@@ -332,6 +349,10 @@ nav>.container {
   .service-img {
     padding: 2rem 0;
   }
+
+  .footer-inner-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /* responsive for pads and tablets */
@@ -372,5 +393,33 @@ nav>.container {
 
   .footer-ul {
     display: none;
+  }
+
+  .footer-inner-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-header,
+  .footer-link-ul {
+    text-align: center;
+  }
+
+  .footer-content {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-ul {
+    display: none;
+  }
+
+  .copyright-container {
+    grid-template-columns: 1fr;
+  }
+
+  .copyright-section,
+  .terms-condition-section {
+    text-align: center;
+    padding: 0.625rem;
   }
 }

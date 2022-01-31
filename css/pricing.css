@@ -201,6 +201,25 @@ nav>.container {
 /* Personal website section end here */
 
 
+/* footer section start here */
+
+.footer-inner-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.copyright-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.terms-condition-section {
+  text-align: right;
+}
+
+/* footer section end here */
+
+
 /* responsive section start here */
 
 @media only screen and (max-width: 1025px) {
@@ -244,6 +263,11 @@ nav>.container {
   .active-drawer {
     overflow-y: hidden;
   }
+
+  /* footer */
+  .footer-inner-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media only screen and (max-width: 796px) {
@@ -261,5 +285,33 @@ nav>.container {
 
   .footer-ul {
     display: none;
+  }
+
+  .footer-inner-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-header,
+  .footer-link-ul {
+    text-align: center;
+  }
+
+  .footer-content {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-ul {
+    display: none;
+  }
+
+  .copyright-container {
+    grid-template-columns: 1fr;
+  }
+
+  .copyright-section,
+  .terms-condition-section {
+    text-align: center;
+    padding: 0.625rem;
   }
 }
