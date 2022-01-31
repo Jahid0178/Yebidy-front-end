@@ -283,10 +283,6 @@ nav>.container {
     text-align: center;
   }
 
-  .footer-ul {
-    display: none;
-  }
-
   .footer-inner-container {
     grid-template-columns: 1fr;
   }
