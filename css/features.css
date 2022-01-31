@@ -409,10 +409,6 @@ nav>.container {
     text-align: center;
   }
 
-  .footer-ul {
-    display: none;
-  }
-
   .copyright-container {
     grid-template-columns: 1fr;
   }
