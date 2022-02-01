@@ -17,14 +17,18 @@ nav>.container {
 
 .nav-li {
   display: inline-block;
+  margin: 0 1rem;
+}
+
+.nav-li:last-child {
+  margin: 0;
 }
 
 .nav-link {
   color: var(--black);
   font-weight: 600;
   text-decoration: none;
-
-  margin: 0 0.5rem;
+  margin: 0 0.1.5rem;
 }
 
 .nav-link:hover {
