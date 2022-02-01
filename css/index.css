@@ -112,6 +112,7 @@ img {
   color: var(--white);
   position: absolute;
   bottom: 30px;
+  top: 50%;
   left: 50%;
   font-size: 2rem;
   transform: translate(-50%);
@@ -129,6 +130,11 @@ img {
 }
 
 /* fading animation start here */
+
+.textAnim {
+  animation-name: textFade;
+  animation-duration: 1s;
+}
 
 .fade {
   -webkit-animation-name: fade;
@@ -154,6 +160,24 @@ img {
 
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes textFade {
+  0% {
+    opacity: 0;
+    transform: translateX(90%);
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: translateX(-70%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(-50%);
+
   }
 }
 
