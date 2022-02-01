@@ -335,8 +335,8 @@ nav>.container {
     padding: 1rem;
   }
 
-  .nav-li a {
-    font-size: 1.50rem;
+  .nav-link {
+    font-size: 1rem;
   }
 
   .nav-li .user-icon {
@@ -371,6 +371,10 @@ nav>.container {
 /* responsive for pads and tablets */
 
 @media only screen and (max-width: 769px) {
+  .nav-link {
+    font-size: 1rem;
+  }
+
   .accordion .contentBox .label::after {
     display: none;
   }

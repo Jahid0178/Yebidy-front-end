@@ -276,8 +276,8 @@ select {
     padding: 1rem;
   }
 
-  .nav-li a {
-    font-size: 1.50rem;
+  .nav-link {
+    font-size: 1rem;
   }
 
   .nav-li .user-icon {
@@ -308,6 +308,10 @@ select {
 /* responsive for pads and tablets */
 
 @media only screen and (max-width: 769px) {
+  .nav-link {
+    font-size: 1rem;
+  }
+
   .footer-content {
     justify-content: center;
     text-align: center;
