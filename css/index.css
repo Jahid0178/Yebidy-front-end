@@ -128,6 +128,37 @@ img {
   background: var(--light-gray);
 }
 
+/* fading animation start here */
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .7;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .7;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* fading animation end here */
+
 /* service section start here */
 
 .service-container {
