@@ -42,17 +42,28 @@
       </div>
     </nav>
   </header>
-  <!-- Home section start in here -->
+
+  <!-- Home hero section start in here -->
+
   <section class="home-container">
-    <div data-aos="fade-down" class=" home-content">
-      <h2 class="main-header">CREATE YOUR PERSONAL OR BUSINESS WEBSITE</h2>
-      <p class="main-little-desc">Enter your domain name and start creating your website today</p>
-      <div class="input-container">
-        <input class="input-domain" placeholder="Enter domain name" type="search" name="" id="">
-        <button class="search-btn">Create</button>
-      </div>
+    <div class="mySlides">
+      <img src="./Images/Home/slider1.jpg" alt="slider 1">
+      <p class="sliderText">Slider 1</p>
     </div>
+    <div class="mySlides">
+      <img src="./Images/Home/slider2.jpg" alt="slider 2">
+      <p class="sliderText">Slider 2</p>
+    </div>
+    <div class="mySlides">
+      <img src="./Images/Home/slider3.jpg" alt="slider 3">
+      <p class="sliderText">Slider 3</p>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </section>
+
+  <!-- Home hero section end in here -->
 
   <!-- Service Section Start Here -->
 
@@ -373,6 +384,7 @@
 
   <!-- Footer section end here -->
 
+  <script src="./js/slider/slider.js"></script>
   <script src="js/Humberger Menu/humbergerMenu.js"></script>
   <!-- AOS Animation JS -->
   <script src="./js/aos js/aos.js"></script>
