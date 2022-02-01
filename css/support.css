@@ -379,32 +379,21 @@ nav>.container {
     display: none;
   }
 
-  .footer-content {
-    justify-content: center;
-    text-align: center;
-  }
-
-  .footer-inner-container {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-header,
-  .footer-link-ul {
-    text-align: center;
-  }
+  /* Footer section start here */
 
   .footer-content {
-    justify-content: center;
-    text-align: center;
+    align-items: center;
+    flex-direction: column;
   }
 
-  .copyright-container {
-    grid-template-columns: 1fr;
+  .copyright-section {
+    align-items: center;
+    flex-direction: column;
   }
 
-  .copyright-section,
-  .terms-condition-section {
-    text-align: center;
-    padding: 0.625rem;
+  .copyright-content {
+    margin: 0.678rem 0;
   }
+
+  /* Footer section end here */
 }

@@ -308,36 +308,25 @@ select {
 /* responsive for pads and tablets */
 
 @media only screen and (max-width: 769px) {
+
+  /* Footer section start here */
   .nav-link {
     font-size: 1rem;
   }
 
   .footer-content {
-    justify-content: center;
-    text-align: center;
+    align-items: center;
+    flex-direction: column;
   }
 
-  .footer-inner-container {
-    grid-template-columns: 1fr;
+  .copyright-section {
+    align-items: center;
+    flex-direction: column;
   }
 
-  .footer-header,
-  .footer-link-ul {
-    text-align: center;
+  .copyright-content {
+    margin: 0.678rem 0;
   }
 
-  .footer-content {
-    justify-content: center;
-    text-align: center;
-  }
-
-  .copyright-container {
-    grid-template-columns: 1fr;
-  }
-
-  .copyright-section,
-  .terms-condition-section {
-    text-align: center;
-    padding: 0.625rem;
-  }
+  /* Footer section end here */
 }
