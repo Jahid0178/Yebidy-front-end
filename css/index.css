@@ -138,21 +138,21 @@ img {
 }
 
 @-webkit-keyframes fade {
-  from {
+  0% {
     opacity: .7;
   }
 
-  to {
+  100% {
     opacity: 1;
   }
 }
 
 @keyframes fade {
-  from {
+  0% {
     opacity: .7;
   }
 
-  to {
+  100% {
     opacity: 1;
   }
 }
