@@ -53,6 +53,7 @@ footer {
 .copyright-section {
   display: flex;
   justify-content: space-between;
+  color: var(--white);
 }
 
 .copyright-content p {
