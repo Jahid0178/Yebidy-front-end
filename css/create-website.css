@@ -321,6 +321,7 @@ select {
 
   .copyright-section {
     align-items: center;
+    text-align: center;
     flex-direction: column;
   }
 

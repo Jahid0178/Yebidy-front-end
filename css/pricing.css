@@ -293,6 +293,7 @@ nav>.container {
 
   .copyright-section {
     align-items: center;
+    text-align: center;
     flex-direction: column;
   }
 
