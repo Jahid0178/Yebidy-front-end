@@ -148,3 +148,13 @@ img {
 }
 
 /* fading animation end here */
+
+@media only screen and (max-width: 796px) {
+  .sliderText h5 {
+    font-size: 1.563rem;
+  }
+
+  .sliderText p {
+    font-size: 0.938rem;
+  }
+}
